@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="assets/img/test.png" />
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- SWIPPER CSS -->
+    <link rel="stylesheet" href="" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>Rafyandi Portfolio</title>
+  </head>
+  <body>
+    <!-- OVERLAY -->
+    <div class="overlay first"></div>
+    <div class="overlay second"></div>
+    <div class="overlay third"></div>
+
+    <!-- HEADER -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">Rafyandi</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link"> <i class="uil uil-estate nav__icon"></i> Home </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link"> <i class="uil uil-user nav__icon"></i> About </a>
+            </li>
+            <li class="nav__item">
+              <a href="#qualification" class="nav__link"> <i class="uil uil-diary nav__icon"></i> Qualification </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link"><i class="uil uil-lightbulb-alt nav__icon"></i> Skill</a>
+            </li>
+            <li class="nav__item">
+              <a href="#blog" class="nav__link"><i class="uil uil-document-layout-center nav__icon"></i> Blog</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link"><i class="uil uil-message nav__icon"></i> Contact Me</a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__btns">
+          <!-- Ganti Warna Dark/Light -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- MAIN -->
+    <main class="main">
+      <!-- HOME -->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a href="https://www.linkedin.com/in/rafyandi/" target="_blank" class="home__social-icon"><i class="uil uil-linkedin-alt"></i></a>
+              <a href="https://www.instagram.com/rafyandi/" target="_blank" class="home__social-icon"><i class="uil uil-instagram"></i></a>
+              <a href="https://www.facebook.com/rafyandi.17/" target="_blank" class="home__social-icon"><i class="uil uil-twitter-alt"></i></a>
+              <a href="https://www.youtube.com/channel/UCoTTp9yXG7A31gxXpqpeGhw" target="_blank" class="home__social-icon"><i class="uil uil-facebook-f"></i></a>
+              <a href="https://twitter.com/stephencottt" target="_blank" class="home__social-icon"><i class="uil uil-youtube"></i></a>
+            </div>
+
+            <div class="home__img">
+              <svg class="home__blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M55.4,-40.2C71,-24.6,82.4,-1.6,77.6,17.2C72.9,35.9,52.1,50.4,31.2,57.7C10.4,65,-10.5,65,-29.3,57.3C-48.1,49.6,-64.8,34.1,-68.6,16.1C-72.3,-1.9,-63,-22.4,-49.4,-37.6C-35.8,-52.7,-17.9,-62.6,1,-63.4C19.9,-64.1,39.7,-55.8,55.4,-40.2Z"
+                    transform="translate(100 100)"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M55.4,-40.2C71,-24.6,82.4,-1.6,77.6,17.2C72.9,35.9,52.1,50.4,31.2,57.7C10.4,65,-10.5,65,-29.3,57.3C-48.1,49.6,-64.8,34.1,-68.6,16.1C-72.3,-1.9,-63,-22.4,-49.4,-37.6C-35.8,-52.7,-17.9,-62.6,1,-63.4C19.9,-64.1,39.7,-55.8,55.4,-40.2Z"
+                    transform="translate(100 100)"
+                  />
+                  <image class="home__blob-img" x="51" y="40" href="assets/img/rafyandi.png" />
+                </g>
+              </svg>
+            </div>
+
+            <div class="home__data">
+              <p class="home__description">Hello, my name </p>
+              <h1 class="home__title">Rafyandi</h1>
+              <p class="home__subtitle">I'm <span class="auto-type"></span>from Indonesia</p>
+              <a href="#contact" class="button button--flex">
+                Contact Me
+                <i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle">A little bit about myself</span>
+        <div class="about__container container grid">
+          <div class="about__data">
+            <img src="assets/img/about.jpg" alt="rafyandi2" class="about__img" />
+            <p class="about__description">
+              A fresh graduate majoring in Informatics Engineering at Gunadarma University in 2021. Mastering basic skills in databases (SQL, Microsoft Access), coding(Python, HTML), networking (design, installation, and configuration), and
+              UI Designer (Figma). Able to communicate in Indonesian and understand English both orally and in writing.
+            </p>
+          </div>
+
+          <div class="about__info">
+            <h4 class="about__info-title">Information</h4>
+            <div class="about__info-data">
+              <i class="uil uil-user-circle about__info-icon"></i>
+              <span>Rafyandi</span>
+            </div>
+            <div class="about__info-data">
+              <i class="uil uil-map-marker-alt about__info-icon"></i>
+              <span>Jl. Kapuk III Klender, Duren Sawit, Jakarta Timur 13470</span>
+            </div>
+            <div class="about__info-data">
+              <i class="uil uil-phone about__info-icon"></i>
+              <span>(+62) 812-8384-2231</span>
+            </div>
+            <div class="about__info-data">
+              <i class="uil uil-envelope-alt about__info-icon"></i>
+              <span>rafyandi.17@gmail.com</span>
+            </div>
+            <div class="about__buttons">
+              <a download="" href="assets/pdf/resume-rafyandi.pdf" class="button button--flex--download"> Download Resume <i class="uil uil-import button__icon"></i> </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- QUALIFICATION -->
+      <section class="qualification section" id="qualification">
+        <h2 class="section__title">Qualification</h2>
+        <span class="section__subtitle">My education and experience.</span>
+
+        <div class="qualification__container container grid">
+          <!-- EDUCATION -->
+          <div class="qualification__content">
+            <h3 class="qualification__title">
+              <i class="uil uil-bag qualification__title-icon"></i>
+              Education
+            </h3>
+
+            <div class="qualification__section">
+              <div class="qualification__data">
+                <h4 class="qualification__area">Universitas Gunadarma</h4>
+                <span class="qualification__subtitle">Teknik Informatika</span>
+
+                <div class="qualification__box">
+                  <span class="qualification__edu">
+                    <i class="uil uil-map-marker-alt qualification__icon"></i>
+                    Depok - Jawa Barat
+                  </span>
+
+                  <span class="qualification__edu">
+                    <i class="uil uil-calendar-alt qualification__icon"></i>
+                    September 2017 - September 2021
+                  </span>
+                </div>
+              </div>
+
+              <div class="qualification__data">
+                <h4 class="qualification__area">Sekolah Menengah Kejuruan Negeri 7 Jakarta</h4>
+                <span class="qualification__subtitle">Multimedia</span>
+
+                <div class="qualification__box">
+                  <span class="qualification__edu">
+                    <i class="uil uil-map-marker-alt qualification__icon"></i>
+                    Jakarta Timur - DKI Jakarta
+                  </span>
+
+                  <span class="qualification__edu">
+                    <i class="uil uil-calendar-alt qualification__icon"></i>
+                    Juni 2014 - Mei 2017
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- EXPERIENCE -->
+          <div class="qualification__content">
+            <h3 class="qualification__title">
+              <i class="uil uil-bag qualification__title-icon"></i>
+              Work Experience
+            </h3>
+
+            <div class="qualification__section">
+              <div class="qualification__data">
+                <h4 class="qualification__area">PT. EMS Paramitra</h4>
+                <span class="qualification__subtitle">Software Engineer</span>
+
+                <div class="qualification__box">
+                  <span class="qualification__edu">
+                    <i class="uil uil-map-marker-alt qualification__icon"></i>
+                    Jakarta Timur - DKI Jakarta
+                  </span>
+
+                  <span class="qualification__edu">
+                    <i class="uil uil-calendar-alt qualification__icon"></i>
+                    Februari 2022 - Present
+                  </span>
+                </div>
+              </div>
+            </div>
+          
+            <div class="qualification__section">
+              <div class="qualification__data">
+                <h4 class="qualification__area">CV. Plankton Computer</h4>
+                <span class="qualification__subtitle">Graphic Designer</span>
+
+                <div class="qualification__box">
+                  <span class="qualification__edu">
+                    <i class="uil uil-map-marker-alt qualification__icon"></i>
+                    Bekasi - Jawa Barat
+                  </span>
+
+                  <span class="qualification__edu">
+                    <i class="uil uil-calendar-alt qualification__icon"></i>
+                    September 2015 - Desember 2015
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILL -->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">My skills.</span>
+
+        <div class="skills__container container grid">
+          <div>
+            <!-- SKILLS 1 -->
+            <div class="skills__content skills__open">
+              <div class="skills__header">
+                <i class="uil uil-brackets-curly skills__icon"></i>
+                <div>
+                  <h3 class="skills__title">Developing</h3>
+                  <span class="skills__subtitle">Several programming languages that I understand</span>
+                </div>
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__box grid">
+                <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="bx bxs-badge-check"></i>
+                    <div>
+                      <h3 class="skills__name">Java</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+                  <div class="skills__data">
+                    <i class="bx bxs-badge-check"></i>
+                    <div>
+                      <h3 class="skills__name">Python</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+                  <div class="skills__data">
+                    <i class="bx bxs-badge-check"></i>
+                    <div>
+                      <h3 class="skills__name">HTML</h3>
+                      <span class="skills__level">Intermediate</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="bx bxs-badge-check"></i>
+                    <div>
+                      <h3 class="skills__name">CSS</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+                  <div class="skills__data">
+                    <i class="bx bxs-badge-check"></i>
+                    <div>
+                      <h3 class="skills__name">Javascript</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- SKILLS 2 -->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-palette skills__icon"></i>
+                <div>
+                  <h3 class="skills__title">Graphic Design</h3>
+                  <span class="skills__subtitle">Some graphic design software that I usually use</span>
+                </div>
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+              <div class="skills__box grid">
+                <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="bx bxs-badge-check"></i>
+                    <div>
+                      <h3 class="skills__name">Adobe Photoshop</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+                  <div class="skills__data">
+                    <i class="bx bxs-badge-check"></i>
+                    <div>
+                      <h3 class="skills__name">Adobe Illustrator</h3>
+                      <span class="skills__level">Intermediate</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="bx bxs-badge-check"></i>
+                    <div>
+                      <h3 class="skills__name">Adobe After Effect</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+                  <div class="skills__data">
+                    <i class="bx bxs-badge-check"></i>
+                    <div>
+                      <h3 class="skills__name">Adobe Premiere</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- SKILLS 3 -->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-database skills__icon"></i>
+                <div>
+                  <h3 class="skills__title">Database</h3>
+                  <span class="skills__subtitle">Some DBMS that I understand</span>
+                </div>
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+              <div class="skills__box grid">
+                <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="bx bxs-badge-check"></i>
+                    <div>
+                      <h3 class="skills__name">MySQL</h3>
+                      <span class="skills__level">Intermediate</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="bx bxs-badge-check"></i>
+                    <div>
+                      <h3 class="skills__name">Oracle SQL</h3>
+                      <span class="skills__level">Intermediate</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="skills__box grid">
+                <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="bx bxs-badge-check"></i>
+                    <div>
+                      <h3 class="skills__name">Microsoft Access</h3>
+                      <span class="skills__level">Intermediate</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- SKILLS 4 -->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-illustration skills__icon"></i>
+                <div>
+                  <h3 class="skills__title">UI/UX Designer</h3>
+                  <span class="skills__subtitle">UI/UX software I usually</span>
+                </div>
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+              <div class="skills__box grid">
+                <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="bx bxs-badge-check"></i>
+                    <div>
+                      <h3 class="skills__name">Figma</h3>
+                      <span class="skills__level">Intermediate</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="skills__group">
+                  <div class="skills__data">
+                    <i class="bx bxs-badge-check"></i>
+                    <div>
+                      <h3 class="skills__name">Adobe XD</h3>
+                      <span class="skills__level">Basic</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT ME -->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">You can contact me with.</span>
+
+        <div class="contact__container container grid section__border">
+          <!-- KONTEN KIRI -->
+          <div class="contact__content">
+            <h3 class="contact__title">Send me a message</h3>
+
+            <div class="contact__info">
+              <div class="contact__card">
+                <i class="uil uil-fast-mail contact__card-icon"></i>
+                <h3 class="contact__card-title">Email</h3>
+                <span class="contact__card-data">rafyandi.17@gmail.com</span>
+                <a href="mailto:rafyandi.17@gmail.com" target="_blank" class="contact__button"> Send message <i class="uil uil-angle-right-b contact__button-icon"></i> </a>
+              </div>
+
+              <div class="contact__card">
+                <i class="uil uil-whatsapp contact__card-icon"></i>
+                <h3 class="contact__card-title">Whatsapp</h3>
+                <span class="contact__card-data">(+62) 812-8384-2231</span>
+                <a href="https://api.whatsapp.com/send?phone=6281283842231&text=Hello, Saya ingin berkenalan denganmu!" target="_blank" class="contact__button">
+                  Start a conversation <i class="uil uil-angle-right-b contact__button-icon"></i>
+                </a>
+              </div>
+
+              <div class="contact__card">
+                <i class="uil uil-facebook-messenger-alt contact__card-icon"></i>
+                <h3 class="contact__card-title">Messenger</h3>
+                <span class="contact__card-data">Rafyandi</span>
+                <a href="https://m.me/rafyandi.17" target="_blank" class="contact__button"> Start a conversation <i class="uil uil-angle-right-b contact__button-icon"></i> </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- KONTEN KANAN -->
+          <div class="contact__content">
+            <h3 class="contact__title">Write your message to me</h3>
+
+            <form action="" class="contact__form">
+              <div class="contact__form-div">
+                <label for="" class="contact__form-tag">Name</label>
+                <input type="text" placeholder="Insert your name" class="contact__form-input" />
+              </div>
+              <div class="contact__form-div">
+                <label for="" class="contact__form-tag">Email</label>
+                <input type="email" placeholder="Insert your email address" class="contact__form-input" />
+              </div>
+              <div class="contact__form-div contact__form-area">
+                <label for="" class="contact__form-tag">Message</label>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Insert your message" class="contact__form-input"></textarea>
+              </div>
+              <div class="contact__send">
+                <a href="#" class="button button--flex">Send <i class="uil uil-message send__icon"></i> </a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer__container">
+          <h1 class="footer__title">Rafyandi</h1>
+          <p class="footer__description">Just make it simple.</p>
+
+          <div class="footer__social">
+            <a href="https://www.linkedin.com/in/rafyandi/" target="_blank" class="footer__link-icon"><i class="uil uil-linkedin-alt"></i></a>
+            <a href="https://www.instagram.com/rafyandi/" target="_blank" class="footer__link-icon"><i class="uil uil-instagram"></i></a>
+            <a href="https://www.facebook.com/rafyandi.17/" target="_blank" class="footer__link-icon"><i class="uil uil-twitter-alt"></i></a>
+            <a href="https://www.youtube.com/channel/UCoTTp9yXG7A31gxXpqpeGhw" target="_blank" class="footer__link-icon"><i class="uil uil-facebook-f"></i></a>
+            <a href="https://twitter.com/stephencottt" target="_blank" class="footer__link-icon"><i class="uil uil-youtube"></i></a>
+          </div>
+          <p class="footer__copy">&#169; 2022 made with <i class="uil uil-heart footer__love-icon"></i> by Rafyandi. All right reserved</p>
+        </div>
+    </footer>
+    <!-- SCROLL -->
+    <a href="" class="scrollup" id="scroll-up">
+      <i class="uil uil-angle-up scrollup__icon"></i>
+    </a>
+  <!-- START JAVASCRIPT -->
+    <!-- TYPED JS -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".auto-type", {
+          strings: ["Developer", "UI/UX Designer", "Graphic Designer", "Big Data Enthusiast"],
+          typeSpeed: 100,
+          backSpeed: 100,
+          backDelay: 1000,
+          startDelay: 1600,
+          loop: true
+      })
+    </script>
+    <!-- SWIPPER JS -->
+    <script src=""></script>
+    <!-- SCROLL REVEAL JS -->
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <!-- MAIN JS -->
+    <script src="assets/js/main.js"></script>
+  <!-- END JAVASCRIPT -->
+  </body>
+</html>
